@@ -16,6 +16,7 @@ from fetch_fixtures import get_fixtures
 from fetch_lineup import get_lineups
 from fetch_sa_announcement import get_springbok_lineup
 from fetch_squad import get_squad
+import fetch_supersport
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_DIR = os.path.join(SCRIPT_DIR, "..", "data")
@@ -114,6 +115,39 @@ def build():
             squad_as_of_cache[nation] = as_of
         return squad_index_cache[nation]
 
+    supersport_fixtures_cache = {}
+
+    def supersport_fixtures_for(competition):
+        if competition not in supersport_fixtures_cache:
+            print(f"  fetching SuperSport fixtures for {competition}...")
+            try:
+                supersport_fixtures_cache[competition] = fetch_supersport.get_fixtures(competition)
+            except Exception as exc:  # best-effort: never fail the whole build over one competition
+                print(f"    [warn] SuperSport fixtures fetch failed for {competition}: {exc}")
+                supersport_fixtures_cache[competition] = []
+        return supersport_fixtures_cache[competition]
+
+    def supersport_lineup(fx):
+        """Try SuperSport as a second lineup source. Returns (home_players,
+        away_players), each possibly empty, with no caps/club attached yet.
+        """
+        ss_fixtures = supersport_fixtures_for(fx["competition"])
+        ss_match = fetch_supersport.match_fixture(ss_fixtures, fx["home"], fx["away"], fx["date_utc"])
+        if not ss_match or not ss_match["lineups_available"]:
+            return [], []
+        print(f"    trying SuperSport for {fx['home']} vs {fx['away']}...")
+        try:
+            players = fetch_supersport.get_lineup_players(ss_match["feed_id"])
+        except Exception as exc:  # best-effort: never fail the whole build over one fixture
+            print(f"    [warn] SuperSport lineup fetch failed: {exc}")
+            return [], []
+        chunk_a, chunk_b = fetch_supersport.split_into_two_sides(players)
+        if not chunk_a or not chunk_b:
+            return [], []
+        return fetch_supersport.assign_sides_by_name(
+            chunk_a, chunk_b, caps_club_index(fx["home"]), caps_club_index(fx["away"]),
+        )
+
     out_fixtures = []
     for fx in fixtures:
         print(f"  fetching matchday lineup for {fx['home']} vs {fx['away']}...")
@@ -121,6 +155,16 @@ def build():
 
         home_players, home_pre_enriched = lineups.get("home", []), False
         away_players, away_pre_enriched = lineups.get("away", []), False
+
+        # SuperSport sometimes has a lineup before ESPN does, for any Tier 1
+        # fixture (not just South Africa's). It doesn't carry caps/club, so
+        # these players still go through the normal Wikipedia enrichment.
+        if not home_players or not away_players:
+            ss_home, ss_away = supersport_lineup(fx)
+            if not home_players and ss_home:
+                home_players = ss_home
+            if not away_players and ss_away:
+                away_players = ss_away
 
         # ESPN often lags SA Rugby's own team announcement by a few days.
         # For the Springboks specifically, try scraping springboks.rugby's
@@ -177,9 +221,12 @@ def build():
             "list by matching player names, and can occasionally miss a match (shows as \"?\") or "
             "lag a very recent transfer.",
             "Caps are career totals as of the date shown, not caps entering this specific match.",
-            "For South Africa specifically, if ESPN hasn't posted the lineup yet, the site falls back "
-            "to SA Rugby's own team-announcement article (found via Google Custom Search) -- this is "
-            "usually available before ESPN and already includes caps/club straight from the source.",
+            "If ESPN hasn't posted a lineup yet, the site also tries SuperSport (a South African "
+            "broadcaster) as a second source for any Tier 1 fixture -- it's sometimes faster than ESPN "
+            "but, like ESPN, doesn't include caps/club, so those are still looked up via Wikipedia.",
+            "For South Africa specifically, if neither ESPN nor SuperSport has the lineup yet, the site "
+            "falls back to SA Rugby's own team-announcement article (found via Google Custom Search) -- "
+            "this is usually available before ESPN and already includes caps/club straight from the source.",
             "US broadcaster is a best-effort mapping by competition (see data/broadcast_overrides.json "
             "to correct a specific fixture) -- always double check before making plans.",
         ],

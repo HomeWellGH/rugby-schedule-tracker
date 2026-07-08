@@ -22,17 +22,10 @@ import urllib.error
 import urllib.parse
 import urllib.request
 
+from config import JERSEY_POSITIONS
+
 HEADERS = {"User-Agent": "personal-rugby-schedule-hobby-project/1.0 (contact: not-provided; free/non-commercial)"}
 CSE_URL = "https://www.googleapis.com/customsearch/v1"
-
-# Standard rugby union jersey-number -> position convention. 16-23 are
-# simply "Replacement" since the specific position they'll cover varies.
-JERSEY_POSITIONS = {
-    1: "Prop", 2: "Hooker", 3: "Prop", 4: "Lock", 5: "Lock",
-    6: "Flanker", 7: "Flanker", 8: "Number 8", 9: "Scrum-half",
-    10: "Fly-half", 11: "Wing", 12: "Centre", 13: "Centre",
-    14: "Wing", 15: "Fullback",
-}
 
 PLAYER_LINE_RE = re.compile(
     r"(?P<jersey>\d{1,2})\s+"

@@ -9,11 +9,12 @@ club) for both sides.
 ## How it works
 
 - `scripts/build_schedule.py` pulls fixtures from ESPN's public rugby API,
-  the announced matchday 23 for each fixture (also ESPN, once a union
-  confirms it), and caps/club info from Wikipedia, then writes the result
-  to `data/schedule.json`. For South Africa specifically, if ESPN hasn't
-  posted the lineup yet it falls back to SA Rugby's own announcement
-  article (see "Optional: faster Springbok team announcements" below).
+  the announced matchday 23 for each fixture (ESPN first, then SuperSport
+  as a second source, once either has it), and caps/club info from
+  Wikipedia, then writes the result to `data/schedule.json`. For South
+  Africa specifically, if neither has posted the lineup yet it falls back
+  to SA Rugby's own announcement article (see "Optional: faster Springbok
+  team announcements" below).
 - `index.html` / `app.js` / `style.css` are a plain static site (no
   framework, no build step) that reads that JSON file and renders it.
 - `.github/workflows/update.yml` runs the build script automatically every
@@ -33,13 +34,20 @@ rough edges:
   notice. If fixtures stop showing up, check the league IDs in
   `scripts/config.py` are still correct (search "espn rugby scoreboard
   league id").
-- **Matchday 23**: comes from ESPN's per-event data, which is only
-  populated once the union actually announces the team -- typically 2-4
-  days before kickoff, though in practice it can lag the official
-  announcement by several more days. Until then the site correctly shows
-  "not yet announced"; that's expected, not a bug. South Africa has a
-  faster fallback (see below); the other nine Tier 1 nations don't, since
-  each union's own site would need its own custom scraper.
+- **Matchday 23**: comes from ESPN's per-event data first, then SuperSport
+  (a South African broadcaster with its own lineup data, sometimes faster)
+  as a second source, for any Tier 1 fixture. Neither is populated until
+  the union actually announces the team -- typically 2-4 days before
+  kickoff, though in practice it can lag the official announcement by
+  several more days. Until then the site correctly shows "not yet
+  announced"; that's expected, not a bug. South Africa has one more
+  fallback on top of these two (see below); the other nine Tier 1 nations
+  don't, since each union's own site would need its own custom scraper.
+  SuperSport's data doesn't label which half of its player list is which
+  team, so the site figures that out by cross-checking names against the
+  Wikipedia squad lookup below -- in the rare case that fails for both
+  halves, that source is skipped for that fixture rather than risk
+  swapping the two teams.
 - **Caps/club**: looked up separately by matching each announced player's
   name against their nation's Wikipedia "Current squad" list. This can
   occasionally miss (shown as "?") if Wikipedia hasn't caught up on a very

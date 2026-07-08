@@ -83,18 +83,34 @@ BROADCAST_DEFAULTS = {
 }
 
 # ---------------------------------------------------------------------------
-# Rugby position code -> full name, for readable squad tables.
+# SuperSport (South African broadcaster). Embeds structured-but-unofficial
+# JSON server-side rather than exposing a real API. Used as a second
+# lineup source (all Tier 1 nations) tried between ESPN and the SA Rugby
+# fallback, since it sometimes has a lineup before ESPN does.
 # ---------------------------------------------------------------------------
 
-POSITION_NAMES = {
-    "HK": "Hooker",
-    "PR": "Prop",
-    "LK": "Lock",
-    "FL": "Flanker",
-    "N8": "Number 8",
-    "SH": "Scrum-half",
-    "FH": "Fly-half",
-    "CE": "Centre",
-    "WG": "Wing",
-    "FB": "Fullback",
+SUPERSPORT_TOURS = {
+    "Six Nations": "3ce1b8cd-bc57-4f60-8f8d-734279bcbfe3",
+    "Rugby Championship": "df76e82b-6ea3-4761-8322-71c152e55736",
+    "Nations Championship": "89f3bb34-7097-49f8-8983-1891e663dd42",
+}
+
+# SuperSport names teams things like "Springboks Men" or "Scotland Men" --
+# strip " Men"/" Women" and map nicknames back to the canonical names above.
+SUPERSPORT_NATION_ALIASES = {
+    "Springboks": "South Africa",
+    "All Blacks": "New Zealand",
+    "Wallabies": "Australia",
+    "Los Pumas": "Argentina",
+}
+
+# Standard rugby union jersey-number -> position convention, shared by any
+# source (SA Rugby announcement, SuperSport, ...) that gives a shirt number
+# but not a clean position label. 16-23 are simply "Replacement" since the
+# specific position they'll cover varies.
+JERSEY_POSITIONS = {
+    1: "Prop", 2: "Hooker", 3: "Prop", 4: "Lock", 5: "Lock",
+    6: "Flanker", 7: "Flanker", 8: "Number 8", 9: "Scrum-half",
+    10: "Fly-half", 11: "Wing", 12: "Centre", 13: "Centre",
+    14: "Wing", 15: "Fullback",
 }
