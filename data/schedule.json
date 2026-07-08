@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-08T19:44:33.086181+00:00",
+  "generated_at": "2026-07-08T20:11:12.358383+00:00",
   "favorite_team": "South Africa",
   "timezone": "America/Los_Angeles",
   "fixtures": [
@@ -89,7 +89,7 @@
       "away_lineup": [],
       "away_lineup_announced": false,
       "caps_club_as_of": {
-        "South Africa": null,
+        "South Africa": "2026-06-21",
         "Scotland": null
       }
     },
@@ -197,7 +197,7 @@
       "away_lineup": [],
       "away_lineup_announced": false,
       "caps_club_as_of": {
-        "South Africa": null,
+        "South Africa": "2026-06-21",
         "Wales": null
       }
     },
@@ -225,6 +225,7 @@
     "Matchday 23 (jersey numbers 1-23) comes from ESPN's per-event data, populated once the union announces it -- usually 2-4 days before kickoff. Until then a team shows as \"not yet announced\", which is expected, not an error.",
     "Caps and club are looked up separately from each nation's Wikipedia \"Current squad\" list by matching player names, and can occasionally miss a match (shows as \"?\") or lag a very recent transfer.",
     "Caps are career totals as of the date shown, not caps entering this specific match.",
+    "For South Africa specifically, if ESPN hasn't posted the lineup yet, the site falls back to SA Rugby's own team-announcement article (found via Google Custom Search) -- this is usually available before ESPN and already includes caps/club straight from the source.",
     "US broadcaster is a best-effort mapping by competition (see data/broadcast_overrides.json to correct a specific fixture) -- always double check before making plans."
   ]
 }

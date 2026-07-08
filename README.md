@@ -11,7 +11,9 @@ club) for both sides.
 - `scripts/build_schedule.py` pulls fixtures from ESPN's public rugby API,
   the announced matchday 23 for each fixture (also ESPN, once a union
   confirms it), and caps/club info from Wikipedia, then writes the result
-  to `data/schedule.json`.
+  to `data/schedule.json`. For South Africa specifically, if ESPN hasn't
+  posted the lineup yet it falls back to SA Rugby's own announcement
+  article (see "Optional: faster Springbok team announcements" below).
 - `index.html` / `app.js` / `style.css` are a plain static site (no
   framework, no build step) that reads that JSON file and renders it.
 - `.github/workflows/update.yml` runs the build script automatically every
@@ -33,8 +35,11 @@ rough edges:
   league id").
 - **Matchday 23**: comes from ESPN's per-event data, which is only
   populated once the union actually announces the team -- typically 2-4
-  days before kickoff. Until then the site correctly shows "not yet
-  announced"; that's expected, not a bug.
+  days before kickoff, though in practice it can lag the official
+  announcement by several more days. Until then the site correctly shows
+  "not yet announced"; that's expected, not a bug. South Africa has a
+  faster fallback (see below); the other nine Tier 1 nations don't, since
+  each union's own site would need its own custom scraper.
 - **Caps/club**: looked up separately by matching each announced player's
   name against their nation's Wikipedia "Current squad" list. This can
   occasionally miss (shown as "?") if Wikipedia hasn't caught up on a very
@@ -48,6 +53,44 @@ rough edges:
   ```json
   { "South Africa vs New Zealand": "NBC / Peacock" }
   ```
+
+## Optional: faster Springbok team announcements
+
+SA Rugby posts the Springboks' matchday 23 on springboks.rugby, usually
+well before ESPN's API reflects it -- often 2+ days earlier. The site has
+no public feed, so finding *this week's* announcement article
+automatically requires a search API. This project uses Google's Custom
+Search JSON API, which is free up to 100 queries/day (this only needs a
+couple of queries per build run, so the free tier is effectively
+unlimited for this use).
+
+Without this set up, South Africa's lineup simply waits for ESPN like
+every other nation -- nothing breaks if you skip this section.
+
+**Setup (~5 minutes, one time):**
+
+1. Go to [Programmable Search Engine](https://programmablesearchengine.google.com/controlpanel/create)
+   and create a new search engine.
+   - "Sites to search": `springboks.rugby`
+   - Name it anything (e.g. "Springboks announcements")
+2. After creating it, open its control panel and copy the **Search engine
+   ID** (this is your `GOOGLE_CSE_ID`).
+3. Go to the [Custom Search API page](https://console.cloud.google.com/apis/library/customsearch.googleapis.com)
+   in Google Cloud Console. If prompted, create a new (free) project, then
+   click **Enable**.
+4. Go to **APIs & Services -> Credentials -> Create Credentials -> API
+   key**. Copy it (this is your `GOOGLE_CSE_API_KEY`). Optionally restrict
+   the key to only the Custom Search API for safety.
+5. Add both as GitHub repository secrets so the Actions workflow can use
+   them: repo **Settings -> Secrets and variables -> Actions -> New
+   repository secret**, once for each of `GOOGLE_CSE_API_KEY` and
+   `GOOGLE_CSE_ID`.
+6. To test locally, set them as environment variables before running the
+   build script (PowerShell: `$env:GOOGLE_CSE_API_KEY = "..."`, then same
+   for `GOOGLE_CSE_ID`).
+
+If either variable is unset, `scripts/fetch_sa_announcement.py` is skipped
+entirely and the site behaves exactly as it did before this feature.
 
 ## Changing your favorite team or timezone
 

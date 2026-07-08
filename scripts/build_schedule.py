@@ -14,6 +14,7 @@ from config import (
 )
 from fetch_fixtures import get_fixtures
 from fetch_lineup import get_lineups
+from fetch_sa_announcement import get_springbok_lineup
 from fetch_squad import get_squad
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -118,10 +119,30 @@ def build():
         print(f"  fetching matchday lineup for {fx['home']} vs {fx['away']}...")
         lineups = get_lineups(fx["competition"], fx["event_id"])
 
-        home_players = lineups.get("home", [])
-        away_players = lineups.get("away", [])
-        home_lineup = enrich_with_caps_club(home_players, caps_club_index(fx["home"])) if home_players else []
-        away_lineup = enrich_with_caps_club(away_players, caps_club_index(fx["away"])) if away_players else []
+        home_players, home_pre_enriched = lineups.get("home", []), False
+        away_players, away_pre_enriched = lineups.get("away", []), False
+
+        # ESPN often lags SA Rugby's own team announcement by a few days.
+        # For the Springboks specifically, try scraping springboks.rugby's
+        # announcement article (already has caps/club inline) before giving
+        # up and showing "not yet announced".
+        if not home_players and fx["home"] == "South Africa":
+            print("    ESPN has no Springbok lineup yet, trying springboks.rugby...")
+            home_players = get_springbok_lineup(fx["away"])
+            home_pre_enriched = bool(home_players)
+        if not away_players and fx["away"] == "South Africa":
+            print("    ESPN has no Springbok lineup yet, trying springboks.rugby...")
+            away_players = get_springbok_lineup(fx["home"])
+            away_pre_enriched = bool(away_players)
+
+        # Players sourced from the SA Rugby article already carry caps/club
+        # from the article itself; only ESPN-sourced players need the
+        # separate Wikipedia lookup.
+        home_lineup = home_players if home_pre_enriched else enrich_with_caps_club(home_players, caps_club_index(fx["home"]))
+        away_lineup = away_players if away_pre_enriched else enrich_with_caps_club(away_players, caps_club_index(fx["away"]))
+
+        home_as_of = "official team announcement (springboks.rugby)" if home_pre_enriched else squad_as_of_cache.get(fx["home"])
+        away_as_of = "official team announcement (springboks.rugby)" if away_pre_enriched else squad_as_of_cache.get(fx["away"])
 
         out_fixtures.append({
             "event_id": fx["event_id"],
@@ -137,8 +158,8 @@ def build():
             "away_lineup": away_lineup,
             "away_lineup_announced": len(away_lineup) > 0,
             "caps_club_as_of": {
-                fx["home"]: squad_as_of_cache.get(fx["home"]),
-                fx["away"]: squad_as_of_cache.get(fx["away"]),
+                fx["home"]: home_as_of,
+                fx["away"]: away_as_of,
             },
         })
 
@@ -156,6 +177,9 @@ def build():
             "list by matching player names, and can occasionally miss a match (shows as \"?\") or "
             "lag a very recent transfer.",
             "Caps are career totals as of the date shown, not caps entering this specific match.",
+            "For South Africa specifically, if ESPN hasn't posted the lineup yet, the site falls back "
+            "to SA Rugby's own team-announcement article (found via Google Custom Search) -- this is "
+            "usually available before ESPN and already includes caps/club straight from the source.",
             "US broadcaster is a best-effort mapping by competition (see data/broadcast_overrides.json "
             "to correct a specific fixture) -- always double check before making plans.",
         ],
