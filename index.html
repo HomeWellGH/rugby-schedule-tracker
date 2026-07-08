@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rugby Schedule Tracker</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1 id="page-title">Rugby Schedule Tracker</h1>
+  <p id="generated-note" class="muted"></p>
+</header>
+
+<main>
+  <section id="favorite-section">
+    <h2 id="favorite-heading">Your Team</h2>
+    <div id="favorite-fixtures" class="fixture-list"></div>
+  </section>
+
+  <section id="tier1-section">
+    <h2>This Week in Tier 1 Rugby</h2>
+    <div id="tier1-fixtures" class="fixture-list"></div>
+  </section>
+
+  <p id="empty-state" class="muted" hidden>No Tier 1 fixtures found in the current window. Check back closer to the next Test window.</p>
+</main>
+
+<footer>
+  <details>
+    <summary>About this data</summary>
+    <ul id="caveats-list"></ul>
+  </details>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>

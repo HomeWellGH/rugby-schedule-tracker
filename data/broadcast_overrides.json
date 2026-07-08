@@ -1,0 +1,9 @@
+{
+  "_comment": "Map a fixture to a specific US broadcaster by 'Team A vs Team B' (either order) or by ESPN event id. Entries here override the defaults in scripts/config.py. Example below is inert (commented via _ prefix) -- copy the pattern to add a real one.",
+  "_example_by_matchup": {
+    "South Africa vs New Zealand": "NBC / Peacock"
+  },
+  "_example_by_event_id": {
+    "602514": "ESPN+"
+  }
+}

@@ -1,0 +1,230 @@
+{
+  "generated_at": "2026-07-08T19:44:33.086181+00:00",
+  "favorite_team": "South Africa",
+  "timezone": "America/Los_Angeles",
+  "fixtures": [
+    {
+      "event_id": "603981",
+      "competition": "Nations Championship",
+      "home": "New Zealand",
+      "away": "Italy",
+      "is_favorite": false,
+      "kickoff_local": "Fri, Jul 10, 2026 - 10:10 PM PDT",
+      "venue": "Hnry Stadium - Wellington, New Zealand",
+      "broadcast_us": "Peacock (NBC Sports) -- unconfirmed, verify",
+      "home_lineup": [],
+      "home_lineup_announced": false,
+      "away_lineup": [],
+      "away_lineup_announced": false,
+      "caps_club_as_of": {
+        "New Zealand": null,
+        "Italy": null
+      }
+    },
+    {
+      "event_id": "603982",
+      "competition": "Nations Championship",
+      "home": "Australia",
+      "away": "France",
+      "is_favorite": false,
+      "kickoff_local": "Sat, Jul 11, 2026 - 12:40 AM PDT",
+      "venue": "Suncorp Stadium - Brisbane, Australia",
+      "broadcast_us": "Peacock (NBC Sports) -- unconfirmed, verify",
+      "home_lineup": [],
+      "home_lineup_announced": false,
+      "away_lineup": [],
+      "away_lineup_announced": false,
+      "caps_club_as_of": {
+        "Australia": null,
+        "France": null
+      }
+    },
+    {
+      "event_id": "603983",
+      "competition": "Nations Championship",
+      "home": "Japan",
+      "away": "Ireland",
+      "is_favorite": false,
+      "kickoff_local": "Sat, Jul 11, 2026 - 3:10 AM PDT",
+      "venue": "McDonald Jones Stadium - Newcastle, Australia",
+      "broadcast_us": "Peacock (NBC Sports) -- unconfirmed, verify",
+      "home_lineup": [],
+      "home_lineup_announced": false,
+      "away_lineup": [],
+      "away_lineup_announced": false,
+      "caps_club_as_of": {
+        "Japan": null,
+        "Ireland": null
+      }
+    },
+    {
+      "event_id": "603984",
+      "competition": "Nations Championship",
+      "home": "Fiji",
+      "away": "England",
+      "is_favorite": false,
+      "kickoff_local": "Sat, Jul 11, 2026 - 6:10 AM PDT",
+      "venue": "Hill Dickinson Stadium",
+      "broadcast_us": "Peacock (NBC Sports) -- unconfirmed, verify",
+      "home_lineup": [],
+      "home_lineup_announced": false,
+      "away_lineup": [],
+      "away_lineup_announced": false,
+      "caps_club_as_of": {
+        "Fiji": null,
+        "England": null
+      }
+    },
+    {
+      "event_id": "603985",
+      "competition": "Nations Championship",
+      "home": "South Africa",
+      "away": "Scotland",
+      "is_favorite": true,
+      "kickoff_local": "Sat, Jul 11, 2026 - 8:40 AM PDT",
+      "venue": "Loftus Versfeld - Pretoria, South Africa",
+      "broadcast_us": "Peacock (NBC Sports) -- unconfirmed, verify",
+      "home_lineup": [],
+      "home_lineup_announced": false,
+      "away_lineup": [],
+      "away_lineup_announced": false,
+      "caps_club_as_of": {
+        "South Africa": null,
+        "Scotland": null
+      }
+    },
+    {
+      "event_id": "603986",
+      "competition": "Nations Championship",
+      "home": "Argentina",
+      "away": "Wales",
+      "is_favorite": false,
+      "kickoff_local": "Sat, Jul 11, 2026 - 12:10 PM PDT",
+      "venue": "Estadio Bicentenario - San Juan, Argentina",
+      "broadcast_us": "Peacock (NBC Sports) -- unconfirmed, verify",
+      "home_lineup": [],
+      "home_lineup_announced": false,
+      "away_lineup": [],
+      "away_lineup_announced": false,
+      "caps_club_as_of": {
+        "Argentina": null,
+        "Wales": null
+      }
+    },
+    {
+      "event_id": "603987",
+      "competition": "Nations Championship",
+      "home": "New Zealand",
+      "away": "Ireland",
+      "is_favorite": false,
+      "kickoff_local": "Sat, Jul 18, 2026 - 12:10 AM PDT",
+      "venue": "Eden Park - Auckland, New Zealand",
+      "broadcast_us": "Peacock (NBC Sports) -- unconfirmed, verify",
+      "home_lineup": [],
+      "home_lineup_announced": false,
+      "away_lineup": [],
+      "away_lineup_announced": false,
+      "caps_club_as_of": {
+        "New Zealand": null,
+        "Ireland": null
+      }
+    },
+    {
+      "event_id": "603988",
+      "competition": "Nations Championship",
+      "home": "Japan",
+      "away": "France",
+      "is_favorite": false,
+      "kickoff_local": "Sat, Jul 18, 2026 - 1:40 AM PDT",
+      "venue": "MUFG Stadium - Tokyo, Japan",
+      "broadcast_us": "Peacock (NBC Sports) -- unconfirmed, verify",
+      "home_lineup": [],
+      "home_lineup_announced": false,
+      "away_lineup": [],
+      "away_lineup_announced": false,
+      "caps_club_as_of": {
+        "Japan": null,
+        "France": null
+      }
+    },
+    {
+      "event_id": "603989",
+      "competition": "Nations Championship",
+      "home": "Australia",
+      "away": "Italy",
+      "is_favorite": false,
+      "kickoff_local": "Sat, Jul 18, 2026 - 3:10 AM PDT",
+      "venue": "HBF Park - Perth, Australia",
+      "broadcast_us": "Peacock (NBC Sports) -- unconfirmed, verify",
+      "home_lineup": [],
+      "home_lineup_announced": false,
+      "away_lineup": [],
+      "away_lineup_announced": false,
+      "caps_club_as_of": {
+        "Australia": null,
+        "Italy": null
+      }
+    },
+    {
+      "event_id": "603990",
+      "competition": "Nations Championship",
+      "home": "Fiji",
+      "away": "Scotland",
+      "is_favorite": false,
+      "kickoff_local": "Sat, Jul 18, 2026 - 6:10 AM PDT",
+      "venue": "Scottish Gas Murrayfield - Edinburgh, Scotland",
+      "broadcast_us": "Peacock (NBC Sports) -- unconfirmed, verify",
+      "home_lineup": [],
+      "home_lineup_announced": false,
+      "away_lineup": [],
+      "away_lineup_announced": false,
+      "caps_club_as_of": {
+        "Fiji": null,
+        "Scotland": null
+      }
+    },
+    {
+      "event_id": "603991",
+      "competition": "Nations Championship",
+      "home": "South Africa",
+      "away": "Wales",
+      "is_favorite": true,
+      "kickoff_local": "Sat, Jul 18, 2026 - 8:40 AM PDT",
+      "venue": "Hollywoodbets Kings Park - Durban, South Africa",
+      "broadcast_us": "Peacock (NBC Sports) -- unconfirmed, verify",
+      "home_lineup": [],
+      "home_lineup_announced": false,
+      "away_lineup": [],
+      "away_lineup_announced": false,
+      "caps_club_as_of": {
+        "South Africa": null,
+        "Wales": null
+      }
+    },
+    {
+      "event_id": "603992",
+      "competition": "Nations Championship",
+      "home": "Argentina",
+      "away": "England",
+      "is_favorite": false,
+      "kickoff_local": "Sat, Jul 18, 2026 - 12:10 PM PDT",
+      "venue": "Estadio Único Madre de Ciudades",
+      "broadcast_us": "Peacock (NBC Sports) -- unconfirmed, verify",
+      "home_lineup": [],
+      "home_lineup_announced": false,
+      "away_lineup": [],
+      "away_lineup_announced": false,
+      "caps_club_as_of": {
+        "Argentina": null,
+        "England": null
+      }
+    }
+  ],
+  "caveats": [
+    "Fixtures/venues/times come from ESPN's public (unofficial) rugby API.",
+    "Matchday 23 (jersey numbers 1-23) comes from ESPN's per-event data, populated once the union announces it -- usually 2-4 days before kickoff. Until then a team shows as \"not yet announced\", which is expected, not an error.",
+    "Caps and club are looked up separately from each nation's Wikipedia \"Current squad\" list by matching player names, and can occasionally miss a match (shows as \"?\") or lag a very recent transfer.",
+    "Caps are career totals as of the date shown, not caps entering this specific match.",
+    "US broadcaster is a best-effort mapping by competition (see data/broadcast_overrides.json to correct a specific fixture) -- always double check before making plans."
+  ]
+}
