@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-08T20:54:10.267890+00:00",
+  "generated_at": "2026-07-09T19:09:11.908336+00:00",
   "favorite_team": "South Africa",
   "timezone": "America/Los_Angeles",
   "fixtures": [
@@ -12,10 +12,426 @@
       "kickoff_local": "Fri, Jul 10, 2026 - 10:10 PM PDT",
       "venue": "Hnry Stadium - Wellington, New Zealand",
       "broadcast_us": "Peacock (NBC Sports) -- unconfirmed, verify",
-      "home_lineup": [],
-      "home_lineup_announced": false,
-      "away_lineup": [],
-      "away_lineup_announced": false,
+      "home_lineup": [
+        {
+          "jersey": 1,
+          "name": "Ethan de Groot",
+          "position": "Prop",
+          "captain": false,
+          "starter": true,
+          "caps": 41,
+          "club": "/ Southland"
+        },
+        {
+          "jersey": 2,
+          "name": "Codie Taylor",
+          "position": "Hooker",
+          "captain": false,
+          "starter": true,
+          "caps": 107,
+          "club": "/ Canterbury"
+        },
+        {
+          "jersey": 3,
+          "name": "Tyrel Lomax",
+          "position": "Prop",
+          "captain": false,
+          "starter": true,
+          "caps": 49,
+          "club": "/ Tasman"
+        },
+        {
+          "jersey": 4,
+          "name": "Sam Darry",
+          "position": "Lock",
+          "captain": false,
+          "starter": true,
+          "caps": 9,
+          "club": "/ Canterbury"
+        },
+        {
+          "jersey": 5,
+          "name": "Tupou Vaa'i",
+          "position": "Lock",
+          "captain": false,
+          "starter": true,
+          "caps": 46,
+          "club": "/ Taranaki"
+        },
+        {
+          "jersey": 6,
+          "name": "Wallace Sititi",
+          "position": "Flanker",
+          "captain": false,
+          "starter": true,
+          "caps": 20,
+          "club": "/ North Harbour"
+        },
+        {
+          "jersey": 7,
+          "name": "Luke Jacobson",
+          "position": "Flanker",
+          "captain": false,
+          "starter": true,
+          "caps": 25,
+          "club": "/ Waikato"
+        },
+        {
+          "jersey": 8,
+          "name": "Ardie Savea",
+          "position": "No. 8",
+          "captain": false,
+          "starter": true,
+          "caps": null,
+          "club": null
+        },
+        {
+          "jersey": 9,
+          "name": "Cam Roigard",
+          "position": "Scrum-Half",
+          "captain": false,
+          "starter": true,
+          "caps": 18,
+          "club": "/ Counties Manukau"
+        },
+        {
+          "jersey": 10,
+          "name": "Ruben Love",
+          "position": "Fly-Half",
+          "captain": false,
+          "starter": true,
+          "caps": 6,
+          "club": "/ Wellington"
+        },
+        {
+          "jersey": 11,
+          "name": "Leroy Carter",
+          "position": "Wing",
+          "captain": false,
+          "starter": true,
+          "caps": 6,
+          "club": "/ Bay of Plenty"
+        },
+        {
+          "jersey": 12,
+          "name": "Jordie Barrett",
+          "position": "Centre",
+          "captain": false,
+          "starter": true,
+          "caps": 72,
+          "club": "/ Taranaki"
+        },
+        {
+          "jersey": 13,
+          "name": "Billy Proctor",
+          "position": "Centre",
+          "captain": false,
+          "starter": true,
+          "caps": 12,
+          "club": "/ Wellington"
+        },
+        {
+          "jersey": 14,
+          "name": "Will Jordan",
+          "position": "Wing",
+          "captain": false,
+          "starter": true,
+          "caps": 55,
+          "club": "/ Tasman"
+        },
+        {
+          "jersey": 15,
+          "name": "Damian McKenzie",
+          "position": "Fullback",
+          "captain": false,
+          "starter": true,
+          "caps": 76,
+          "club": "/ Waikato"
+        },
+        {
+          "jersey": 16,
+          "name": "Samisoni Taukei'aho",
+          "position": "Replacement",
+          "captain": false,
+          "starter": false,
+          "caps": 43,
+          "club": "/ Waikato"
+        },
+        {
+          "jersey": 17,
+          "name": "George Bower",
+          "position": "Replacement",
+          "captain": false,
+          "starter": false,
+          "caps": 25,
+          "club": "/ Otago"
+        },
+        {
+          "jersey": 18,
+          "name": "Pasilio Tosi",
+          "position": "Replacement",
+          "captain": false,
+          "starter": false,
+          "caps": 16,
+          "club": "/ Bay of Plenty"
+        },
+        {
+          "jersey": 19,
+          "name": "Josh Lord",
+          "position": "Replacement",
+          "captain": false,
+          "starter": false,
+          "caps": 13,
+          "club": "/ Taranaki"
+        },
+        {
+          "jersey": 20,
+          "name": "Anton Segner",
+          "position": "Replacement",
+          "captain": false,
+          "starter": false,
+          "caps": 0,
+          "club": "/ Auckland"
+        },
+        {
+          "jersey": 21,
+          "name": "Cortez Ratima",
+          "position": "Replacement",
+          "captain": false,
+          "starter": false,
+          "caps": 22,
+          "club": "/ Waikato"
+        },
+        {
+          "jersey": 22,
+          "name": "Anton Lienert-Brown",
+          "position": "Replacement",
+          "captain": false,
+          "starter": false,
+          "caps": 88,
+          "club": "/ Waikato"
+        },
+        {
+          "jersey": 23,
+          "name": "Josh Moorby",
+          "position": "Replacement",
+          "captain": false,
+          "starter": false,
+          "caps": 0,
+          "club": "/ Waikato"
+        }
+      ],
+      "home_lineup_announced": true,
+      "away_lineup": [
+        {
+          "jersey": 1,
+          "name": "Danilo Fischetti",
+          "position": "Prop",
+          "captain": false,
+          "starter": true,
+          "caps": 64,
+          "club": "Northampton Saints"
+        },
+        {
+          "jersey": 2,
+          "name": "Tommaso Di Bartolomeo",
+          "position": "Hooker",
+          "captain": false,
+          "starter": true,
+          "caps": 11,
+          "club": "Zebre Parma"
+        },
+        {
+          "jersey": 3,
+          "name": "Marco Riccioni",
+          "position": "Prop",
+          "captain": false,
+          "starter": true,
+          "caps": 37,
+          "club": "Saracens"
+        },
+        {
+          "jersey": 4,
+          "name": "Niccolo Cannone",
+          "position": "Lock",
+          "captain": false,
+          "starter": true,
+          "caps": null,
+          "club": null
+        },
+        {
+          "jersey": 5,
+          "name": "Andrea Zambonin",
+          "position": "Lock",
+          "captain": false,
+          "starter": true,
+          "caps": 19,
+          "club": "Exeter Chiefs"
+        },
+        {
+          "jersey": 6,
+          "name": "Ross Vintcent",
+          "position": "Flanker",
+          "captain": false,
+          "starter": true,
+          "caps": 20,
+          "club": "Exeter Chiefs"
+        },
+        {
+          "jersey": 7,
+          "name": "Michele Lamaro",
+          "position": "Flanker",
+          "captain": false,
+          "starter": true,
+          "caps": null,
+          "club": null
+        },
+        {
+          "jersey": 8,
+          "name": "Lorenzo Cannone",
+          "position": "No. 8",
+          "captain": false,
+          "starter": true,
+          "caps": 39,
+          "club": "Benetton"
+        },
+        {
+          "jersey": 9,
+          "name": "Stephen Varney",
+          "position": "Scrum-Half",
+          "captain": false,
+          "starter": true,
+          "caps": 38,
+          "club": "Exeter Chiefs"
+        },
+        {
+          "jersey": 10,
+          "name": "Paolo Garbisi",
+          "position": "Fly-Half",
+          "captain": false,
+          "starter": true,
+          "caps": 55,
+          "club": "Toulon"
+        },
+        {
+          "jersey": 11,
+          "name": "Louis Lynagh",
+          "position": "Wing",
+          "captain": false,
+          "starter": true,
+          "caps": 14,
+          "club": "Benetton"
+        },
+        {
+          "jersey": 12,
+          "name": "Tommaso Menoncello",
+          "position": "Centre",
+          "captain": false,
+          "starter": true,
+          "caps": 40,
+          "club": "Benetton"
+        },
+        {
+          "jersey": 13,
+          "name": "Juan Ignacio Brex",
+          "position": "Centre",
+          "captain": false,
+          "starter": true,
+          "caps": 53,
+          "club": "Toulon"
+        },
+        {
+          "jersey": 14,
+          "name": "Malik Faissal",
+          "position": "Wing",
+          "captain": false,
+          "starter": true,
+          "caps": 1,
+          "club": "Zebre Parma"
+        },
+        {
+          "jersey": 15,
+          "name": "Tommaso Allan",
+          "position": "Fullback",
+          "captain": false,
+          "starter": true,
+          "caps": 90,
+          "club": "Perpignan"
+        },
+        {
+          "jersey": 16,
+          "name": "Gianmarco Lucchesi",
+          "position": "Replacement",
+          "captain": false,
+          "starter": false,
+          "caps": 34,
+          "club": "Toulon"
+        },
+        {
+          "jersey": 17,
+          "name": "Mirco Spagnolo",
+          "position": "Replacement",
+          "captain": false,
+          "starter": false,
+          "caps": 25,
+          "club": "Benetton"
+        },
+        {
+          "jersey": 18,
+          "name": "Muhamed Hasa",
+          "position": "Replacement",
+          "captain": false,
+          "starter": false,
+          "caps": 9,
+          "club": "Zebre Parma"
+        },
+        {
+          "jersey": 19,
+          "name": "Giulio Marini",
+          "position": "Replacement",
+          "captain": false,
+          "starter": false,
+          "caps": 0,
+          "club": "Benetton"
+        },
+        {
+          "jersey": 20,
+          "name": "Federico Ruzza",
+          "position": "Replacement",
+          "captain": false,
+          "starter": false,
+          "caps": 72,
+          "club": "Benetton"
+        },
+        {
+          "jersey": 21,
+          "name": "Riccardo Favretto",
+          "position": "Replacement",
+          "captain": false,
+          "starter": false,
+          "caps": 14,
+          "club": "Benetton"
+        },
+        {
+          "jersey": 22,
+          "name": "Alessandro Garbisi",
+          "position": "Replacement",
+          "captain": false,
+          "starter": false,
+          "caps": 23,
+          "club": "Benetton"
+        },
+        {
+          "jersey": 23,
+          "name": "Leonardo Marin",
+          "position": "Replacement",
+          "captain": false,
+          "starter": false,
+          "caps": 23,
+          "club": "Benetton"
+        }
+      ],
+      "away_lineup_announced": true,
       "caps_club_as_of": {
         "New Zealand": null,
         "Italy": null
@@ -30,10 +446,426 @@
       "kickoff_local": "Sat, Jul 11, 2026 - 12:40 AM PDT",
       "venue": "Suncorp Stadium - Brisbane, Australia",
       "broadcast_us": "Peacock (NBC Sports) -- unconfirmed, verify",
-      "home_lineup": [],
-      "home_lineup_announced": false,
-      "away_lineup": [],
-      "away_lineup_announced": false,
+      "home_lineup": [
+        {
+          "jersey": 1,
+          "name": "Angus Bell",
+          "position": "Prop",
+          "captain": false,
+          "starter": true,
+          "caps": 51,
+          "club": "Waratahs"
+        },
+        {
+          "jersey": 2,
+          "name": "Josh Nasser",
+          "position": "Hooker",
+          "captain": false,
+          "starter": true,
+          "caps": 12,
+          "club": "Reds"
+        },
+        {
+          "jersey": 3,
+          "name": "Allan Alaalatoa",
+          "position": "Prop",
+          "captain": false,
+          "starter": true,
+          "caps": 89,
+          "club": "Brumbies"
+        },
+        {
+          "jersey": 4,
+          "name": "Josh Canham",
+          "position": "Lock",
+          "captain": false,
+          "starter": true,
+          "caps": 3,
+          "club": "Reds"
+        },
+        {
+          "jersey": 5,
+          "name": "Jeremy Williams",
+          "position": "Lock",
+          "captain": false,
+          "starter": true,
+          "caps": 26,
+          "club": "Force"
+        },
+        {
+          "jersey": 6,
+          "name": "Rob Valetini",
+          "position": "Flanker",
+          "captain": false,
+          "starter": true,
+          "caps": 63,
+          "club": "Brumbies"
+        },
+        {
+          "jersey": 7,
+          "name": "Fraser McReight",
+          "position": "Flanker",
+          "captain": false,
+          "starter": true,
+          "caps": 40,
+          "club": "Reds"
+        },
+        {
+          "jersey": 8,
+          "name": "Harry Wilson",
+          "position": "No. 8",
+          "captain": false,
+          "starter": true,
+          "caps": 37,
+          "club": "Reds"
+        },
+        {
+          "jersey": 9,
+          "name": "Ryan Lonergan",
+          "position": "Scrum-Half",
+          "captain": false,
+          "starter": true,
+          "caps": 7,
+          "club": "Brumbies"
+        },
+        {
+          "jersey": 10,
+          "name": "Declan Meredith",
+          "position": "Fly-Half",
+          "captain": false,
+          "starter": true,
+          "caps": 0,
+          "club": "Brumbies"
+        },
+        {
+          "jersey": 11,
+          "name": "Dylan Pietsch",
+          "position": "Wing",
+          "captain": false,
+          "starter": true,
+          "caps": 10,
+          "club": "Force"
+        },
+        {
+          "jersey": 12,
+          "name": "Len Ikitau",
+          "position": "Centre",
+          "captain": false,
+          "starter": true,
+          "caps": 51,
+          "club": "Brumbies"
+        },
+        {
+          "jersey": 13,
+          "name": "Joseph-Aukuso Suaalii",
+          "position": "Centre",
+          "captain": false,
+          "starter": true,
+          "caps": null,
+          "club": null
+        },
+        {
+          "jersey": 14,
+          "name": "Max Jorgensen",
+          "position": "Wing",
+          "captain": false,
+          "starter": true,
+          "caps": 21,
+          "club": "Waratahs"
+        },
+        {
+          "jersey": 15,
+          "name": "Tom Wright",
+          "position": "Fullback",
+          "captain": false,
+          "starter": true,
+          "caps": 44,
+          "club": "Brumbies"
+        },
+        {
+          "jersey": 16,
+          "name": "Brandon Paenga-Amosa",
+          "position": "Replacement",
+          "captain": false,
+          "starter": false,
+          "caps": 26,
+          "club": "Force"
+        },
+        {
+          "jersey": 17,
+          "name": "James Slipper",
+          "position": "Replacement",
+          "captain": false,
+          "starter": false,
+          "caps": 152,
+          "club": "Brumbies"
+        },
+        {
+          "jersey": 18,
+          "name": "Taniela Tupou",
+          "position": "Replacement",
+          "captain": false,
+          "starter": false,
+          "caps": 69,
+          "club": "Racing 92"
+        },
+        {
+          "jersey": 19,
+          "name": "Lachlan Shaw",
+          "position": "Replacement",
+          "captain": false,
+          "starter": false,
+          "caps": 1,
+          "club": "Brumbies"
+        },
+        {
+          "jersey": 20,
+          "name": "Nick Champion de Crespigny",
+          "position": "Replacement",
+          "captain": false,
+          "starter": false,
+          "caps": 4,
+          "club": "Force"
+        },
+        {
+          "jersey": 21,
+          "name": "Tate McDermott",
+          "position": "Replacement",
+          "captain": false,
+          "starter": false,
+          "caps": 51,
+          "club": "Reds"
+        },
+        {
+          "jersey": 22,
+          "name": "Jock Campbell",
+          "position": "Replacement",
+          "captain": false,
+          "starter": false,
+          "caps": 5,
+          "club": "Reds"
+        },
+        {
+          "jersey": 23,
+          "name": "Filipo Daugunu",
+          "position": "Replacement",
+          "captain": false,
+          "starter": false,
+          "caps": 21,
+          "club": "Reds"
+        }
+      ],
+      "home_lineup_announced": true,
+      "away_lineup": [
+        {
+          "jersey": 1,
+          "name": "Moses Alo-Emile",
+          "position": "Prop",
+          "captain": false,
+          "starter": true,
+          "caps": 0,
+          "club": "Stade Français"
+        },
+        {
+          "jersey": 2,
+          "name": "Peato Mauvaka",
+          "position": "Hooker",
+          "captain": false,
+          "starter": true,
+          "caps": null,
+          "club": null
+        },
+        {
+          "jersey": 3,
+          "name": "Demba Bamba",
+          "position": "Prop",
+          "captain": false,
+          "starter": true,
+          "caps": 32,
+          "club": "Racing 92"
+        },
+        {
+          "jersey": 4,
+          "name": "Florian Verhaeghe",
+          "position": "Lock",
+          "captain": false,
+          "starter": true,
+          "caps": null,
+          "club": null
+        },
+        {
+          "jersey": 5,
+          "name": "Emmanuel Meafou",
+          "position": "Lock",
+          "captain": false,
+          "starter": true,
+          "caps": null,
+          "club": null
+        },
+        {
+          "jersey": 6,
+          "name": "Lenni Nouchi",
+          "position": "Flanker",
+          "captain": false,
+          "starter": true,
+          "caps": null,
+          "club": null
+        },
+        {
+          "jersey": 7,
+          "name": "Oscar Jegou",
+          "position": "Flanker",
+          "captain": false,
+          "starter": true,
+          "caps": null,
+          "club": null
+        },
+        {
+          "jersey": 8,
+          "name": "Marko Gazzotti",
+          "position": "No. 8",
+          "captain": false,
+          "starter": true,
+          "caps": 2,
+          "club": "Bordeaux Bègles"
+        },
+        {
+          "jersey": 9,
+          "name": "Maxime Lucu",
+          "position": "Scrum-Half",
+          "captain": false,
+          "starter": true,
+          "caps": 31,
+          "club": "Bordeaux Bègles"
+        },
+        {
+          "jersey": 10,
+          "name": "Romain Ntamack",
+          "position": "Fly-Half",
+          "captain": false,
+          "starter": true,
+          "caps": null,
+          "club": null
+        },
+        {
+          "jersey": 11,
+          "name": "Aaron Grandidier-Nkanang",
+          "position": "Wing",
+          "captain": false,
+          "starter": true,
+          "caps": 0,
+          "club": "Pau"
+        },
+        {
+          "jersey": 12,
+          "name": "Yoram Moefana",
+          "position": "Centre",
+          "captain": false,
+          "starter": true,
+          "caps": 40,
+          "club": "Bordeaux Bègles"
+        },
+        {
+          "jersey": 13,
+          "name": "Fabien Brau-Boirie",
+          "position": "Centre",
+          "captain": false,
+          "starter": true,
+          "caps": 3,
+          "club": "Pau"
+        },
+        {
+          "jersey": 14,
+          "name": "Theo Attissogbe",
+          "position": "Wing",
+          "captain": false,
+          "starter": true,
+          "caps": 14,
+          "club": "Pau"
+        },
+        {
+          "jersey": 15,
+          "name": "Matthieu Jalibert",
+          "position": "Fullback",
+          "captain": false,
+          "starter": true,
+          "caps": 40,
+          "club": "Bordeaux Bègles"
+        },
+        {
+          "jersey": 16,
+          "name": "Maxime Lamothe",
+          "position": "Replacement",
+          "captain": false,
+          "starter": false,
+          "caps": 4,
+          "club": "Bordeaux Bègles"
+        },
+        {
+          "jersey": 17,
+          "name": "Jefferson Poirot",
+          "position": "Replacement",
+          "captain": false,
+          "starter": false,
+          "caps": 37,
+          "club": "Bordeaux Bègles"
+        },
+        {
+          "jersey": 18,
+          "name": "Tevita Tatafu",
+          "position": "Replacement",
+          "captain": false,
+          "starter": false,
+          "caps": 2,
+          "club": "Bayonne"
+        },
+        {
+          "jersey": 19,
+          "name": "Hugo Auradou",
+          "position": "Replacement",
+          "captain": false,
+          "starter": false,
+          "caps": 12,
+          "club": "Pau"
+        },
+        {
+          "jersey": 20,
+          "name": "Tom Staniforth",
+          "position": "Replacement",
+          "captain": false,
+          "starter": false,
+          "caps": 1,
+          "club": "Castres"
+        },
+        {
+          "jersey": 21,
+          "name": "Killian Tixeront",
+          "position": "Replacement",
+          "captain": false,
+          "starter": false,
+          "caps": 4,
+          "club": "Clermont"
+        },
+        {
+          "jersey": 22,
+          "name": "Nolann Le Garrec",
+          "position": "Replacement",
+          "captain": false,
+          "starter": false,
+          "caps": 15,
+          "club": "La Rochelle"
+        },
+        {
+          "jersey": 23,
+          "name": "Kalvin Gourgues",
+          "position": "Replacement",
+          "captain": false,
+          "starter": false,
+          "caps": null,
+          "club": null
+        }
+      ],
+      "away_lineup_announced": true,
       "caps_club_as_of": {
         "Australia": null,
         "France": null
@@ -48,10 +880,426 @@
       "kickoff_local": "Sat, Jul 11, 2026 - 3:10 AM PDT",
       "venue": "McDonald Jones Stadium - Newcastle, Australia",
       "broadcast_us": "Peacock (NBC Sports) -- unconfirmed, verify",
-      "home_lineup": [],
-      "home_lineup_announced": false,
-      "away_lineup": [],
-      "away_lineup_announced": false,
+      "home_lineup": [
+        {
+          "jersey": 1,
+          "name": "Takato Okabe",
+          "position": "Prop",
+          "captain": false,
+          "starter": true,
+          "caps": null,
+          "club": null
+        },
+        {
+          "jersey": 2,
+          "name": "Mamoru Harada",
+          "position": "Hooker",
+          "captain": false,
+          "starter": true,
+          "caps": null,
+          "club": null
+        },
+        {
+          "jersey": 3,
+          "name": "Shuhei Takeuchi",
+          "position": "Prop",
+          "captain": false,
+          "starter": true,
+          "caps": null,
+          "club": null
+        },
+        {
+          "jersey": 4,
+          "name": "Harry Hockings",
+          "position": "Lock",
+          "captain": false,
+          "starter": true,
+          "caps": null,
+          "club": null
+        },
+        {
+          "jersey": 5,
+          "name": "Warner Dearns",
+          "position": "Lock",
+          "captain": false,
+          "starter": true,
+          "caps": null,
+          "club": null
+        },
+        {
+          "jersey": 6,
+          "name": "Ben Gunter",
+          "position": "Flanker",
+          "captain": false,
+          "starter": true,
+          "caps": null,
+          "club": null
+        },
+        {
+          "jersey": 7,
+          "name": "Kanji Shimokawa",
+          "position": "Flanker",
+          "captain": false,
+          "starter": true,
+          "caps": null,
+          "club": null
+        },
+        {
+          "jersey": 8,
+          "name": "Jack Cornelsen",
+          "position": "No. 8",
+          "captain": false,
+          "starter": true,
+          "caps": null,
+          "club": null
+        },
+        {
+          "jersey": 9,
+          "name": "Naoto Saito",
+          "position": "Scrum-Half",
+          "captain": false,
+          "starter": true,
+          "caps": null,
+          "club": null
+        },
+        {
+          "jersey": 10,
+          "name": "Ryunosuke Ito",
+          "position": "Fly-Half",
+          "captain": false,
+          "starter": true,
+          "caps": null,
+          "club": null
+        },
+        {
+          "jersey": 11,
+          "name": "Taira Main",
+          "position": "Wing",
+          "captain": false,
+          "starter": true,
+          "caps": null,
+          "club": null
+        },
+        {
+          "jersey": 12,
+          "name": "Yuya Hirose",
+          "position": "Centre",
+          "captain": false,
+          "starter": true,
+          "caps": null,
+          "club": null
+        },
+        {
+          "jersey": 13,
+          "name": "Dylan Riley",
+          "position": "Centre",
+          "captain": false,
+          "starter": true,
+          "caps": null,
+          "club": null
+        },
+        {
+          "jersey": 14,
+          "name": "Kazuma Ueda",
+          "position": "Wing",
+          "captain": false,
+          "starter": true,
+          "caps": null,
+          "club": null
+        },
+        {
+          "jersey": 15,
+          "name": "Takuro Matsunaga",
+          "position": "Fullback",
+          "captain": false,
+          "starter": true,
+          "caps": null,
+          "club": null
+        },
+        {
+          "jersey": 16,
+          "name": "Hayate Era",
+          "position": "Replacement",
+          "captain": false,
+          "starter": false,
+          "caps": null,
+          "club": null
+        },
+        {
+          "jersey": 17,
+          "name": "Sojiro Otsuka",
+          "position": "Replacement",
+          "captain": false,
+          "starter": false,
+          "caps": null,
+          "club": null
+        },
+        {
+          "jersey": 18,
+          "name": "Keijiro Tamefusa",
+          "position": "Replacement",
+          "captain": false,
+          "starter": false,
+          "caps": null,
+          "club": null
+        },
+        {
+          "jersey": 19,
+          "name": "Michael Stolberg",
+          "position": "Replacement",
+          "captain": false,
+          "starter": false,
+          "caps": null,
+          "club": null
+        },
+        {
+          "jersey": 20,
+          "name": "Michael Leitch",
+          "position": "Replacement",
+          "captain": false,
+          "starter": false,
+          "caps": null,
+          "club": null
+        },
+        {
+          "jersey": 21,
+          "name": "Tiennan Costley",
+          "position": "Replacement",
+          "captain": false,
+          "starter": false,
+          "caps": null,
+          "club": null
+        },
+        {
+          "jersey": 22,
+          "name": "Itsuki Kamimura",
+          "position": "Replacement",
+          "captain": false,
+          "starter": false,
+          "caps": null,
+          "club": null
+        },
+        {
+          "jersey": 23,
+          "name": "Sam Greene",
+          "position": "Replacement",
+          "captain": false,
+          "starter": false,
+          "caps": null,
+          "club": null
+        }
+      ],
+      "home_lineup_announced": true,
+      "away_lineup": [
+        {
+          "jersey": 1,
+          "name": "Tom O'Toole",
+          "position": "Prop",
+          "captain": false,
+          "starter": true,
+          "caps": 21,
+          "club": "Ulster"
+        },
+        {
+          "jersey": 2,
+          "name": "Ronan Kelleher",
+          "position": "Hooker",
+          "captain": false,
+          "starter": true,
+          "caps": 48,
+          "club": "Leinster"
+        },
+        {
+          "jersey": 3,
+          "name": "Thomas Clarkson",
+          "position": "Prop",
+          "captain": false,
+          "starter": true,
+          "caps": 14,
+          "club": "Leinster"
+        },
+        {
+          "jersey": 4,
+          "name": "Tadhg Beirne",
+          "position": "Lock",
+          "captain": false,
+          "starter": true,
+          "caps": 71,
+          "club": "Munster"
+        },
+        {
+          "jersey": 5,
+          "name": "James Ryan",
+          "position": "Lock",
+          "captain": false,
+          "starter": true,
+          "caps": 81,
+          "club": "Leinster"
+        },
+        {
+          "jersey": 6,
+          "name": "Jack Conan",
+          "position": "Flanker",
+          "captain": false,
+          "starter": true,
+          "caps": 60,
+          "club": "Leinster"
+        },
+        {
+          "jersey": 7,
+          "name": "Nick Timoney",
+          "position": "Flanker",
+          "captain": false,
+          "starter": true,
+          "caps": 12,
+          "club": "Ulster"
+        },
+        {
+          "jersey": 8,
+          "name": "Sean Jansen",
+          "position": "No. 8",
+          "captain": false,
+          "starter": true,
+          "caps": 0,
+          "club": "Connacht"
+        },
+        {
+          "jersey": 9,
+          "name": "Craig Casey",
+          "position": "Scrum-Half",
+          "captain": false,
+          "starter": true,
+          "caps": 29,
+          "club": "Munster"
+        },
+        {
+          "jersey": 10,
+          "name": "Ciaran Frawley",
+          "position": "Fly-Half",
+          "captain": false,
+          "starter": true,
+          "caps": 14,
+          "club": "Leinster"
+        },
+        {
+          "jersey": 11,
+          "name": "Jacob Stockdale",
+          "position": "Wing",
+          "captain": false,
+          "starter": true,
+          "caps": 42,
+          "club": "Ulster"
+        },
+        {
+          "jersey": 12,
+          "name": "Stuart McCloskey",
+          "position": "Centre",
+          "captain": false,
+          "starter": true,
+          "caps": 29,
+          "club": "Ulster"
+        },
+        {
+          "jersey": 13,
+          "name": "Robbie Henshaw",
+          "position": "Centre",
+          "captain": false,
+          "starter": true,
+          "caps": 84,
+          "club": "Leinster"
+        },
+        {
+          "jersey": 14,
+          "name": "Jimmy O'Brien",
+          "position": "Wing",
+          "captain": false,
+          "starter": true,
+          "caps": 12,
+          "club": "Leinster"
+        },
+        {
+          "jersey": 15,
+          "name": "Jamie Osborne",
+          "position": "Fullback",
+          "captain": false,
+          "starter": true,
+          "caps": 16,
+          "club": "Leinster"
+        },
+        {
+          "jersey": 16,
+          "name": "Tom Stewart",
+          "position": "Replacement",
+          "captain": false,
+          "starter": false,
+          "caps": 6,
+          "club": "Ulster"
+        },
+        {
+          "jersey": 17,
+          "name": "Billy Bohan",
+          "position": "Replacement",
+          "captain": false,
+          "starter": false,
+          "caps": 0,
+          "club": "Connacht"
+        },
+        {
+          "jersey": 18,
+          "name": "Sam Illo",
+          "position": "Replacement",
+          "captain": false,
+          "starter": false,
+          "caps": 0,
+          "club": "Connacht"
+        },
+        {
+          "jersey": 19,
+          "name": "Cormac Izuchukwu",
+          "position": "Replacement",
+          "captain": false,
+          "starter": false,
+          "caps": 4,
+          "club": "Ulster"
+        },
+        {
+          "jersey": 20,
+          "name": "Bryn Ward",
+          "position": "Replacement",
+          "captain": false,
+          "starter": false,
+          "caps": 0,
+          "club": "Ulster"
+        },
+        {
+          "jersey": 21,
+          "name": "Nathan Doak",
+          "position": "Replacement",
+          "captain": false,
+          "starter": false,
+          "caps": 1,
+          "club": "Ulster"
+        },
+        {
+          "jersey": 22,
+          "name": "Harry Byrne",
+          "position": "Replacement",
+          "captain": false,
+          "starter": false,
+          "caps": 4,
+          "club": "Leinster"
+        },
+        {
+          "jersey": 23,
+          "name": "Bundee Aki",
+          "position": "Replacement",
+          "captain": false,
+          "starter": false,
+          "caps": 70,
+          "club": "Connacht"
+        }
+      ],
+      "away_lineup_announced": true,
       "caps_club_as_of": {
         "Japan": null,
         "Ireland": null
@@ -66,10 +1314,426 @@
       "kickoff_local": "Sat, Jul 11, 2026 - 6:10 AM PDT",
       "venue": "Hill Dickinson Stadium",
       "broadcast_us": "Peacock (NBC Sports) -- unconfirmed, verify",
-      "home_lineup": [],
-      "home_lineup_announced": false,
-      "away_lineup": [],
-      "away_lineup_announced": false,
+      "home_lineup": [
+        {
+          "jersey": 1,
+          "name": "Eroni Mawi",
+          "position": "Prop",
+          "captain": false,
+          "starter": true,
+          "caps": null,
+          "club": null
+        },
+        {
+          "jersey": 2,
+          "name": "Tevita Ikanivere",
+          "position": "Hooker",
+          "captain": false,
+          "starter": true,
+          "caps": null,
+          "club": null
+        },
+        {
+          "jersey": 3,
+          "name": "Mesake Doge",
+          "position": "Prop",
+          "captain": false,
+          "starter": true,
+          "caps": null,
+          "club": null
+        },
+        {
+          "jersey": 4,
+          "name": "Tevita Ratuva",
+          "position": "Lock",
+          "captain": false,
+          "starter": true,
+          "caps": null,
+          "club": null
+        },
+        {
+          "jersey": 5,
+          "name": "Isoa Nasilasila",
+          "position": "Lock",
+          "captain": false,
+          "starter": true,
+          "caps": null,
+          "club": null
+        },
+        {
+          "jersey": 6,
+          "name": "Peceli Yato",
+          "position": "Flanker",
+          "captain": false,
+          "starter": true,
+          "caps": null,
+          "club": null
+        },
+        {
+          "jersey": 7,
+          "name": "Lekima Tagitagivalu",
+          "position": "Flanker",
+          "captain": false,
+          "starter": true,
+          "caps": null,
+          "club": null
+        },
+        {
+          "jersey": 8,
+          "name": "Levani Botia",
+          "position": "No. 8",
+          "captain": false,
+          "starter": true,
+          "caps": null,
+          "club": null
+        },
+        {
+          "jersey": 9,
+          "name": "Simione Kuruvoli",
+          "position": "Scrum-Half",
+          "captain": false,
+          "starter": true,
+          "caps": null,
+          "club": null
+        },
+        {
+          "jersey": 10,
+          "name": "Caleb Muntz",
+          "position": "Fly-Half",
+          "captain": false,
+          "starter": true,
+          "caps": null,
+          "club": null
+        },
+        {
+          "jersey": 11,
+          "name": "Jiuta Wainiqolo",
+          "position": "Wing",
+          "captain": false,
+          "starter": true,
+          "caps": null,
+          "club": null
+        },
+        {
+          "jersey": 12,
+          "name": "Josua Tuisova",
+          "position": "Centre",
+          "captain": false,
+          "starter": true,
+          "caps": null,
+          "club": null
+        },
+        {
+          "jersey": 13,
+          "name": "Kalaveti Ravouvou",
+          "position": "Centre",
+          "captain": false,
+          "starter": true,
+          "caps": null,
+          "club": null
+        },
+        {
+          "jersey": 14,
+          "name": "Vuate Karawalevu",
+          "position": "Wing",
+          "captain": false,
+          "starter": true,
+          "caps": null,
+          "club": null
+        },
+        {
+          "jersey": 15,
+          "name": "Salesi Rayasi",
+          "position": "Fullback",
+          "captain": false,
+          "starter": true,
+          "caps": null,
+          "club": null
+        },
+        {
+          "jersey": 16,
+          "name": "Sam Matavesi",
+          "position": "Replacement",
+          "captain": false,
+          "starter": false,
+          "caps": null,
+          "club": null
+        },
+        {
+          "jersey": 17,
+          "name": "Livai Natave",
+          "position": "Replacement",
+          "captain": false,
+          "starter": false,
+          "caps": null,
+          "club": null
+        },
+        {
+          "jersey": 18,
+          "name": "Peni Ravai",
+          "position": "Replacement",
+          "captain": false,
+          "starter": false,
+          "caps": null,
+          "club": null
+        },
+        {
+          "jersey": 19,
+          "name": "Temo Mayanavanua",
+          "position": "Replacement",
+          "captain": false,
+          "starter": false,
+          "caps": null,
+          "club": null
+        },
+        {
+          "jersey": 20,
+          "name": "Elia Canakaivata",
+          "position": "Replacement",
+          "captain": false,
+          "starter": false,
+          "caps": null,
+          "club": null
+        },
+        {
+          "jersey": 21,
+          "name": "Pita-Gus Sowakula",
+          "position": "Replacement",
+          "captain": false,
+          "starter": false,
+          "caps": null,
+          "club": null
+        },
+        {
+          "jersey": 22,
+          "name": "Frank Lomani",
+          "position": "Replacement",
+          "captain": false,
+          "starter": false,
+          "caps": null,
+          "club": null
+        },
+        {
+          "jersey": 23,
+          "name": "Isaiah Armstrong-Ravula",
+          "position": "Replacement",
+          "captain": false,
+          "starter": false,
+          "caps": null,
+          "club": null
+        }
+      ],
+      "home_lineup_announced": true,
+      "away_lineup": [
+        {
+          "jersey": 1,
+          "name": "Ellis Genge",
+          "position": "Prop",
+          "captain": false,
+          "starter": true,
+          "caps": 81,
+          "club": "Bristol Bears"
+        },
+        {
+          "jersey": 2,
+          "name": "Jamie George",
+          "position": "Hooker",
+          "captain": false,
+          "starter": true,
+          "caps": null,
+          "club": null
+        },
+        {
+          "jersey": 3,
+          "name": "Joe Heyes",
+          "position": "Prop",
+          "captain": false,
+          "starter": true,
+          "caps": 23,
+          "club": "Leicester Tigers"
+        },
+        {
+          "jersey": 4,
+          "name": "Alex Coles",
+          "position": "Lock",
+          "captain": false,
+          "starter": true,
+          "caps": 20,
+          "club": "Northampton Saints"
+        },
+        {
+          "jersey": 5,
+          "name": "George Martin",
+          "position": "Lock",
+          "captain": false,
+          "starter": true,
+          "caps": 22,
+          "club": "Leicester Tigers"
+        },
+        {
+          "jersey": 6,
+          "name": "Ollie Chessum",
+          "position": "Flanker",
+          "captain": false,
+          "starter": true,
+          "caps": 36,
+          "club": "Leicester Tigers"
+        },
+        {
+          "jersey": 7,
+          "name": "Guy Pepper",
+          "position": "Flanker",
+          "captain": false,
+          "starter": true,
+          "caps": 13,
+          "club": "Bath"
+        },
+        {
+          "jersey": 8,
+          "name": "Ben Earl",
+          "position": "No. 8",
+          "captain": false,
+          "starter": true,
+          "caps": 52,
+          "club": "Saracens"
+        },
+        {
+          "jersey": 9,
+          "name": "Jack van Poortvliet",
+          "position": "Scrum-Half",
+          "captain": false,
+          "starter": true,
+          "caps": 25,
+          "club": "Leicester Tigers"
+        },
+        {
+          "jersey": 10,
+          "name": "Fin Smith",
+          "position": "Fly-Half",
+          "captain": false,
+          "starter": true,
+          "caps": 17,
+          "club": "Northampton Saints"
+        },
+        {
+          "jersey": 11,
+          "name": "Immanuel Feyi-Waboso",
+          "position": "Wing",
+          "captain": false,
+          "starter": true,
+          "caps": 14,
+          "club": "Exeter Chiefs"
+        },
+        {
+          "jersey": 12,
+          "name": "Seb Atkinson",
+          "position": "Centre",
+          "captain": false,
+          "starter": true,
+          "caps": 5,
+          "club": "Gloucester"
+        },
+        {
+          "jersey": 13,
+          "name": "Henry Slade",
+          "position": "Centre",
+          "captain": false,
+          "starter": true,
+          "caps": 75,
+          "club": "Exeter Chiefs"
+        },
+        {
+          "jersey": 14,
+          "name": "Tommy Freeman",
+          "position": "Wing",
+          "captain": false,
+          "starter": true,
+          "caps": 28,
+          "club": "Northampton Saints"
+        },
+        {
+          "jersey": 15,
+          "name": "Marcus Smith",
+          "position": "Fullback",
+          "captain": false,
+          "starter": true,
+          "caps": 51,
+          "club": "Harlequins"
+        },
+        {
+          "jersey": 16,
+          "name": "Luke Cowan-Dickie",
+          "position": "Replacement",
+          "captain": false,
+          "starter": false,
+          "caps": 59,
+          "club": "Sale Sharks"
+        },
+        {
+          "jersey": 17,
+          "name": "Asher Opoku-Fordjour",
+          "position": "Replacement",
+          "captain": false,
+          "starter": false,
+          "caps": 7,
+          "club": "Sale Sharks"
+        },
+        {
+          "jersey": 18,
+          "name": "George Kloska",
+          "position": "Replacement",
+          "captain": false,
+          "starter": false,
+          "caps": 0,
+          "club": "Bristol Bears"
+        },
+        {
+          "jersey": 19,
+          "name": "Tom Curry",
+          "position": "Replacement",
+          "captain": false,
+          "starter": false,
+          "caps": 69,
+          "club": "Sale Sharks"
+        },
+        {
+          "jersey": 20,
+          "name": "Henry Pollock",
+          "position": "Replacement",
+          "captain": false,
+          "starter": false,
+          "caps": 11,
+          "club": "Northampton Saints"
+        },
+        {
+          "jersey": 21,
+          "name": "Alex Mitchell",
+          "position": "Replacement",
+          "captain": false,
+          "starter": false,
+          "caps": 31,
+          "club": "Northampton Saints"
+        },
+        {
+          "jersey": 22,
+          "name": "Benhard Janse van Rensburg",
+          "position": "Replacement",
+          "captain": false,
+          "starter": false,
+          "caps": 0,
+          "club": "Bristol Bears"
+        },
+        {
+          "jersey": 23,
+          "name": "Noah Caluori",
+          "position": "Replacement",
+          "captain": false,
+          "starter": false,
+          "caps": 0,
+          "club": "Saracens"
+        }
+      ],
+      "away_lineup_announced": true,
       "caps_club_as_of": {
         "Fiji": null,
         "England": null
@@ -84,10 +1748,426 @@
       "kickoff_local": "Sat, Jul 11, 2026 - 8:40 AM PDT",
       "venue": "Loftus Versfeld - Pretoria, South Africa",
       "broadcast_us": "Peacock (NBC Sports) -- unconfirmed, verify",
-      "home_lineup": [],
-      "home_lineup_announced": false,
-      "away_lineup": [],
-      "away_lineup_announced": false,
+      "home_lineup": [
+        {
+          "jersey": 1,
+          "name": "Boan Venter",
+          "position": "Prop",
+          "captain": false,
+          "starter": true,
+          "caps": 8,
+          "club": "Edinburgh"
+        },
+        {
+          "jersey": 2,
+          "name": "Johan Grobbelaar",
+          "position": "Hooker",
+          "captain": false,
+          "starter": true,
+          "caps": 8,
+          "club": "Bulls"
+        },
+        {
+          "jersey": 3,
+          "name": "Wilco Louw",
+          "position": "Prop",
+          "captain": false,
+          "starter": true,
+          "caps": 29,
+          "club": "Bulls"
+        },
+        {
+          "jersey": 4,
+          "name": "Cobus Wiese",
+          "position": "Lock",
+          "captain": false,
+          "starter": true,
+          "caps": 2,
+          "club": "Bulls"
+        },
+        {
+          "jersey": 5,
+          "name": "Ruan Nortje",
+          "position": "Lock",
+          "captain": false,
+          "starter": true,
+          "caps": null,
+          "club": null
+        },
+        {
+          "jersey": 6,
+          "name": "Paul de Villiers",
+          "position": "Flanker",
+          "captain": false,
+          "starter": true,
+          "caps": 1,
+          "club": "Stormers"
+        },
+        {
+          "jersey": 7,
+          "name": "Pieter-Steph du Toit",
+          "position": "Flanker",
+          "captain": true,
+          "starter": true,
+          "caps": 96,
+          "club": "Toyota Verblitz"
+        },
+        {
+          "jersey": 8,
+          "name": "Evan Roos",
+          "position": "No. 8",
+          "captain": false,
+          "starter": true,
+          "caps": 8,
+          "club": "Stormers"
+        },
+        {
+          "jersey": 9,
+          "name": "Embrose Papier",
+          "position": "Scrum-Half",
+          "captain": false,
+          "starter": true,
+          "caps": 7,
+          "club": "Bulls"
+        },
+        {
+          "jersey": 10,
+          "name": "Handre Pollard",
+          "position": "Fly-Half",
+          "captain": false,
+          "starter": true,
+          "caps": 85,
+          "club": "Bulls"
+        },
+        {
+          "jersey": 11,
+          "name": "Canan Moodie",
+          "position": "Wing",
+          "captain": false,
+          "starter": true,
+          "caps": 24,
+          "club": "Bulls"
+        },
+        {
+          "jersey": 12,
+          "name": "Damian de Allende",
+          "position": "Centre",
+          "captain": false,
+          "starter": true,
+          "caps": 98,
+          "club": "Wild Knights"
+        },
+        {
+          "jersey": 13,
+          "name": "Jesse Kriel",
+          "position": "Centre",
+          "captain": false,
+          "starter": true,
+          "caps": 88,
+          "club": "Yokohama Canon Eagles"
+        },
+        {
+          "jersey": 14,
+          "name": "Edwill van der Merwe",
+          "position": "Wing",
+          "captain": false,
+          "starter": true,
+          "caps": 5,
+          "club": "Sharks"
+        },
+        {
+          "jersey": 15,
+          "name": "Aphelele Fassi",
+          "position": "Fullback",
+          "captain": false,
+          "starter": true,
+          "caps": 15,
+          "club": "Sharks"
+        },
+        {
+          "jersey": 16,
+          "name": "Jan-Hendrik Wessels",
+          "position": "Replacement",
+          "captain": false,
+          "starter": false,
+          "caps": 10,
+          "club": "Bulls"
+        },
+        {
+          "jersey": 17,
+          "name": "Ntuthuko Mchunu",
+          "position": "Replacement",
+          "captain": false,
+          "starter": false,
+          "caps": 3,
+          "club": "Stormers"
+        },
+        {
+          "jersey": 18,
+          "name": "Zachary Porthen",
+          "position": "Replacement",
+          "captain": false,
+          "starter": false,
+          "caps": 4,
+          "club": "Stormers"
+        },
+        {
+          "jersey": 19,
+          "name": "Ben-Jason Dixon",
+          "position": "Replacement",
+          "captain": false,
+          "starter": false,
+          "caps": 8,
+          "club": "Stormers"
+        },
+        {
+          "jersey": 20,
+          "name": "Vincent Tshituka",
+          "position": "Replacement",
+          "captain": false,
+          "starter": false,
+          "caps": 1,
+          "club": "Sharks"
+        },
+        {
+          "jersey": 21,
+          "name": "Elrigh Louw",
+          "position": "Replacement",
+          "captain": false,
+          "starter": false,
+          "caps": 29,
+          "club": "Bulls"
+        },
+        {
+          "jersey": 22,
+          "name": "Grant Williams",
+          "position": "Replacement",
+          "captain": false,
+          "starter": false,
+          "caps": 29,
+          "club": "Sharks"
+        },
+        {
+          "jersey": 23,
+          "name": "Quan Horn",
+          "position": "Replacement",
+          "captain": false,
+          "starter": false,
+          "caps": 1,
+          "club": "Lions"
+        }
+      ],
+      "home_lineup_announced": true,
+      "away_lineup": [
+        {
+          "jersey": 1,
+          "name": "Pierre Schoeman",
+          "position": "Prop",
+          "captain": false,
+          "starter": true,
+          "caps": 50,
+          "club": "Edinburgh"
+        },
+        {
+          "jersey": 2,
+          "name": "Ewan Ashman",
+          "position": "Hooker",
+          "captain": false,
+          "starter": true,
+          "caps": 36,
+          "club": "Edinburgh"
+        },
+        {
+          "jersey": 3,
+          "name": "Zander Fagerson",
+          "position": "Prop",
+          "captain": false,
+          "starter": true,
+          "caps": 82,
+          "club": "Glasgow Warriors"
+        },
+        {
+          "jersey": 4,
+          "name": "Gregor Brown",
+          "position": "Lock",
+          "captain": false,
+          "starter": true,
+          "caps": 17,
+          "club": "Glasgow Warriors"
+        },
+        {
+          "jersey": 5,
+          "name": "Scott Cummings",
+          "position": "Lock",
+          "captain": false,
+          "starter": true,
+          "caps": 50,
+          "club": "Glasgow Warriors"
+        },
+        {
+          "jersey": 6,
+          "name": "Matt Fagerson",
+          "position": "Flanker",
+          "captain": false,
+          "starter": true,
+          "caps": 65,
+          "club": "Glasgow Warriors"
+        },
+        {
+          "jersey": 7,
+          "name": "Rory Darge",
+          "position": "Flanker",
+          "captain": false,
+          "starter": true,
+          "caps": 40,
+          "club": "Glasgow Warriors"
+        },
+        {
+          "jersey": 8,
+          "name": "Jack Dempsey",
+          "position": "No. 8",
+          "captain": false,
+          "starter": true,
+          "caps": 34,
+          "club": "Glasgow Warriors"
+        },
+        {
+          "jersey": 9,
+          "name": "Ben White",
+          "position": "Scrum-Half",
+          "captain": false,
+          "starter": true,
+          "caps": 37,
+          "club": "Toulon"
+        },
+        {
+          "jersey": 10,
+          "name": "Finn Russell",
+          "position": "Fly-Half",
+          "captain": false,
+          "starter": true,
+          "caps": 94,
+          "club": "Bath"
+        },
+        {
+          "jersey": 11,
+          "name": "Jamie Dobie",
+          "position": "Wing",
+          "captain": false,
+          "starter": true,
+          "caps": 20,
+          "club": "Glasgow Warriors"
+        },
+        {
+          "jersey": 12,
+          "name": "Sione Tuipulotu",
+          "position": "Centre",
+          "captain": true,
+          "starter": true,
+          "caps": null,
+          "club": null
+        },
+        {
+          "jersey": 13,
+          "name": "Rory Hutchinson",
+          "position": "Centre",
+          "captain": false,
+          "starter": true,
+          "caps": 12,
+          "club": "Northampton Saints"
+        },
+        {
+          "jersey": 14,
+          "name": "Kyle Steyn",
+          "position": "Wing",
+          "captain": false,
+          "starter": true,
+          "caps": 34,
+          "club": "Glasgow Warriors"
+        },
+        {
+          "jersey": 15,
+          "name": "Kyle Rowe",
+          "position": "Fullback",
+          "captain": false,
+          "starter": true,
+          "caps": 19,
+          "club": "Glasgow Warriors"
+        },
+        {
+          "jersey": 16,
+          "name": "Gregor Hiddleston",
+          "position": "Replacement",
+          "captain": false,
+          "starter": false,
+          "caps": 1,
+          "club": "Glasgow Warriors"
+        },
+        {
+          "jersey": 17,
+          "name": "Rory Sutherland",
+          "position": "Replacement",
+          "captain": false,
+          "starter": false,
+          "caps": 49,
+          "club": "Glasgow Warriors"
+        },
+        {
+          "jersey": 18,
+          "name": "Will Hurd",
+          "position": "Replacement",
+          "captain": false,
+          "starter": false,
+          "caps": 10,
+          "club": "Leicester Tigers"
+        },
+        {
+          "jersey": 19,
+          "name": "Alex Samuel",
+          "position": "Replacement",
+          "captain": false,
+          "starter": false,
+          "caps": 4,
+          "club": "Glasgow Warriors"
+        },
+        {
+          "jersey": 20,
+          "name": "Josh Bayliss",
+          "position": "Replacement",
+          "captain": false,
+          "starter": false,
+          "caps": 16,
+          "club": "Bath"
+        },
+        {
+          "jersey": 21,
+          "name": "Magnus Bradbury",
+          "position": "Replacement",
+          "captain": false,
+          "starter": false,
+          "caps": 22,
+          "club": "Edinburgh"
+        },
+        {
+          "jersey": 22,
+          "name": "Tom Jordan",
+          "position": "Replacement",
+          "captain": false,
+          "starter": false,
+          "caps": 18,
+          "club": "Bristol Bears"
+        },
+        {
+          "jersey": 23,
+          "name": "Stafford McDowall",
+          "position": "Replacement",
+          "captain": false,
+          "starter": false,
+          "caps": 16,
+          "club": "Glasgow Warriors"
+        }
+      ],
+      "away_lineup_announced": true,
       "caps_club_as_of": {
         "South Africa": "2026-06-21",
         "Scotland": null
@@ -102,10 +2182,426 @@
       "kickoff_local": "Sat, Jul 11, 2026 - 12:10 PM PDT",
       "venue": "Estadio Bicentenario - San Juan, Argentina",
       "broadcast_us": "Peacock (NBC Sports) -- unconfirmed, verify",
-      "home_lineup": [],
-      "home_lineup_announced": false,
-      "away_lineup": [],
-      "away_lineup_announced": false,
+      "home_lineup": [
+        {
+          "jersey": 1,
+          "name": "Boris Wenger",
+          "position": "Prop",
+          "captain": false,
+          "starter": true,
+          "caps": 7,
+          "club": "Harlequins"
+        },
+        {
+          "jersey": 2,
+          "name": "Julian Montoya",
+          "position": "Hooker",
+          "captain": false,
+          "starter": true,
+          "caps": null,
+          "club": null
+        },
+        {
+          "jersey": 3,
+          "name": "Tomas Rapetti",
+          "position": "Prop",
+          "captain": false,
+          "starter": true,
+          "caps": 4,
+          "club": "Toulouse"
+        },
+        {
+          "jersey": 4,
+          "name": "Guido Petti",
+          "position": "Lock",
+          "captain": false,
+          "starter": true,
+          "caps": 99,
+          "club": "Harlequins"
+        },
+        {
+          "jersey": 5,
+          "name": "Matias Alemanno",
+          "position": "Lock",
+          "captain": false,
+          "starter": true,
+          "caps": 100,
+          "club": "Gloucester"
+        },
+        {
+          "jersey": 6,
+          "name": "Santiago Grondona",
+          "position": "Flanker",
+          "captain": false,
+          "starter": true,
+          "caps": 27,
+          "club": "Bristol Bears"
+        },
+        {
+          "jersey": 7,
+          "name": "Marcos Kremer",
+          "position": "Flanker",
+          "captain": false,
+          "starter": true,
+          "caps": 81,
+          "club": "Clermont Auvergne"
+        },
+        {
+          "jersey": 8,
+          "name": "Joaquin Oviedo",
+          "position": "No. 8",
+          "captain": false,
+          "starter": true,
+          "caps": null,
+          "club": null
+        },
+        {
+          "jersey": 9,
+          "name": "Gonzalo Garcia",
+          "position": "Scrum-Half",
+          "captain": false,
+          "starter": true,
+          "caps": null,
+          "club": null
+        },
+        {
+          "jersey": 10,
+          "name": "Tomas Albornoz",
+          "position": "Fly-Half",
+          "captain": false,
+          "starter": true,
+          "caps": 23,
+          "club": "Toulon"
+        },
+        {
+          "jersey": 11,
+          "name": "Mateo Carreras",
+          "position": "Wing",
+          "captain": false,
+          "starter": true,
+          "caps": 34,
+          "club": "Bayonne"
+        },
+        {
+          "jersey": 12,
+          "name": "Justo Piccardo",
+          "position": "Centre",
+          "captain": false,
+          "starter": true,
+          "caps": null,
+          "club": null
+        },
+        {
+          "jersey": 13,
+          "name": "Lucio Cinti",
+          "position": "Centre",
+          "captain": false,
+          "starter": true,
+          "caps": 40,
+          "club": "Saracens"
+        },
+        {
+          "jersey": 14,
+          "name": "Bautista Delguy",
+          "position": "Wing",
+          "captain": false,
+          "starter": true,
+          "caps": 41,
+          "club": "Clermont Auvergne"
+        },
+        {
+          "jersey": 15,
+          "name": "Santiago Carreras",
+          "position": "Fullback",
+          "captain": true,
+          "starter": true,
+          "caps": 66,
+          "club": "Bath"
+        },
+        {
+          "jersey": 16,
+          "name": "Ignacio Ruiz",
+          "position": "Replacement",
+          "captain": false,
+          "starter": false,
+          "caps": 28,
+          "club": "Perpignan"
+        },
+        {
+          "jersey": 17,
+          "name": "Mayco Vivas",
+          "position": "Replacement",
+          "captain": false,
+          "starter": false,
+          "caps": 41,
+          "club": "Oyonnax"
+        },
+        {
+          "jersey": 18,
+          "name": "Francisco Coria Marchetti",
+          "position": "Replacement",
+          "captain": false,
+          "starter": false,
+          "caps": 9,
+          "club": "Brive"
+        },
+        {
+          "jersey": 19,
+          "name": "Franco Molina",
+          "position": "Replacement",
+          "captain": false,
+          "starter": false,
+          "caps": 20,
+          "club": "Western Force"
+        },
+        {
+          "jersey": 20,
+          "name": "Pablo Matera",
+          "position": "Replacement",
+          "captain": true,
+          "starter": false,
+          "caps": 122,
+          "club": "Mie Honda Heat"
+        },
+        {
+          "jersey": 21,
+          "name": "Simon Benitez Cruz",
+          "position": "Replacement",
+          "captain": false,
+          "starter": false,
+          "caps": 11,
+          "club": "Newcastle Falcons"
+        },
+        {
+          "jersey": 22,
+          "name": "Matias Moroni",
+          "position": "Replacement",
+          "captain": false,
+          "starter": false,
+          "caps": 96,
+          "club": "Bristol Bears"
+        },
+        {
+          "jersey": 23,
+          "name": "Ignacio Mendy",
+          "position": "Replacement",
+          "captain": false,
+          "starter": false,
+          "caps": 4,
+          "club": "Benetton"
+        }
+      ],
+      "home_lineup_announced": true,
+      "away_lineup": [
+        {
+          "jersey": 1,
+          "name": "Rhys Carre",
+          "position": "Prop",
+          "captain": false,
+          "starter": true,
+          "caps": null,
+          "club": null
+        },
+        {
+          "jersey": 2,
+          "name": "Dewi Lake",
+          "position": "Hooker",
+          "captain": false,
+          "starter": true,
+          "caps": 32,
+          "club": "Ospreys"
+        },
+        {
+          "jersey": 3,
+          "name": "Dillon Lewis",
+          "position": "Prop",
+          "captain": false,
+          "starter": true,
+          "caps": 58,
+          "club": "Dragons"
+        },
+        {
+          "jersey": 4,
+          "name": "Ben Carter",
+          "position": "Lock",
+          "captain": false,
+          "starter": true,
+          "caps": 20,
+          "club": "Dragons"
+        },
+        {
+          "jersey": 5,
+          "name": "Adam Beard",
+          "position": "Lock",
+          "captain": false,
+          "starter": true,
+          "caps": 66,
+          "club": "Montpellier"
+        },
+        {
+          "jersey": 6,
+          "name": "James Botham",
+          "position": "Flanker",
+          "captain": false,
+          "starter": true,
+          "caps": 22,
+          "club": "Cardiff"
+        },
+        {
+          "jersey": 7,
+          "name": "Jac Morgan",
+          "position": "Flanker",
+          "captain": false,
+          "starter": true,
+          "caps": 25,
+          "club": "Ospreys"
+        },
+        {
+          "jersey": 8,
+          "name": "Aaron Wainwright",
+          "position": "No. 8",
+          "captain": false,
+          "starter": true,
+          "caps": 68,
+          "club": "Dragons"
+        },
+        {
+          "jersey": 9,
+          "name": "Tomos Williams",
+          "position": "Scrum-Half",
+          "captain": false,
+          "starter": true,
+          "caps": 73,
+          "club": "Gloucester Rugby"
+        },
+        {
+          "jersey": 10,
+          "name": "Sam Costelow",
+          "position": "Fly-Half",
+          "captain": false,
+          "starter": true,
+          "caps": 21,
+          "club": "Scarlets"
+        },
+        {
+          "jersey": 11,
+          "name": "Josh Adams",
+          "position": "Wing",
+          "captain": false,
+          "starter": true,
+          "caps": 71,
+          "club": "Cardiff"
+        },
+        {
+          "jersey": 12,
+          "name": "Joe Hawkins",
+          "position": "Centre",
+          "captain": false,
+          "starter": true,
+          "caps": 12,
+          "club": "Scarlets"
+        },
+        {
+          "jersey": 13,
+          "name": "Eddie James",
+          "position": "Centre",
+          "captain": false,
+          "starter": true,
+          "caps": 10,
+          "club": "Scarlets"
+        },
+        {
+          "jersey": 14,
+          "name": "Ellis Mee",
+          "position": "Wing",
+          "captain": false,
+          "starter": true,
+          "caps": 9,
+          "club": "Scarlets"
+        },
+        {
+          "jersey": 15,
+          "name": "Blair Murray",
+          "position": "Fullback",
+          "captain": false,
+          "starter": true,
+          "caps": 17,
+          "club": "Scarlets"
+        },
+        {
+          "jersey": 16,
+          "name": "Ryan Elias",
+          "position": "Replacement",
+          "captain": false,
+          "starter": false,
+          "caps": 49,
+          "club": "Scarlets"
+        },
+        {
+          "jersey": 17,
+          "name": "Nicky Smith",
+          "position": "Replacement",
+          "captain": false,
+          "starter": false,
+          "caps": 64,
+          "club": "Leicester Tigers"
+        },
+        {
+          "jersey": 18,
+          "name": "Ben Warren",
+          "position": "Replacement",
+          "captain": false,
+          "starter": false,
+          "caps": 1,
+          "club": "Ospreys"
+        },
+        {
+          "jersey": 19,
+          "name": "Teddy Williams",
+          "position": "Replacement",
+          "captain": false,
+          "starter": false,
+          "caps": 8,
+          "club": "Cardiff"
+        },
+        {
+          "jersey": 20,
+          "name": "Kane James",
+          "position": "Replacement",
+          "captain": false,
+          "starter": false,
+          "caps": 0,
+          "club": "Exeter Chiefs"
+        },
+        {
+          "jersey": 21,
+          "name": "Kieran Hardy",
+          "position": "Replacement",
+          "captain": false,
+          "starter": false,
+          "caps": 31,
+          "club": "Ospreys"
+        },
+        {
+          "jersey": 22,
+          "name": "Max Llewellyn",
+          "position": "Replacement",
+          "captain": false,
+          "starter": false,
+          "caps": 11,
+          "club": "Gloucester Rugby"
+        },
+        {
+          "jersey": 23,
+          "name": "Louis Rees-Zammit",
+          "position": "Replacement",
+          "captain": false,
+          "starter": false,
+          "caps": 41,
+          "club": "Bristol Bears"
+        }
+      ],
+      "away_lineup_announced": true,
       "caps_club_as_of": {
         "Argentina": null,
         "Wales": null
