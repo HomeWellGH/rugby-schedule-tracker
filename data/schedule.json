@@ -1,8 +1,45 @@
 {
-  "generated_at": "2026-07-23T17:58:33.893233+00:00",
+  "generated_at": "2026-07-27T18:15:36.594288+00:00",
   "favorite_team": "South Africa",
   "timezone": "America/Los_Angeles",
-  "fixtures": [],
+  "fixtures": [
+    {
+      "event_id": "603458",
+      "competition": "International Test Match",
+      "home": "Japan",
+      "away": "Australia",
+      "is_favorite": false,
+      "kickoff_local": "Sat, Aug 8, 2026 - 3:05 AM PDT",
+      "venue": "Hanazono Rugby Stadium - Osaka, Japan",
+      "broadcast_us": "FloRugby (check Peacock as alternate)",
+      "home_lineup": [],
+      "home_lineup_announced": false,
+      "away_lineup": [],
+      "away_lineup_announced": false,
+      "caps_club_as_of": {
+        "Japan": null,
+        "Australia": null
+      }
+    },
+    {
+      "event_id": "603498",
+      "competition": "International Test Match",
+      "home": "Argentina",
+      "away": "South Africa",
+      "is_favorite": true,
+      "kickoff_local": "Sat, Aug 8, 2026 - 12:00 PM PDT",
+      "venue": "Estadio José Amalfitani - Buenos Aires, Argentina",
+      "broadcast_us": "FloRugby (check Peacock as alternate)",
+      "home_lineup": [],
+      "home_lineup_announced": false,
+      "away_lineup": [],
+      "away_lineup_announced": false,
+      "caps_club_as_of": {
+        "Argentina": null,
+        "South Africa": "2026-06-21"
+      }
+    }
+  ],
   "caveats": [
     "Fixtures/venues/times come from ESPN's public (unofficial) rugby API.",
     "Matchday 23 (jersey numbers 1-23) comes from ESPN's per-event data, populated once the union announces it -- usually 2-4 days before kickoff. Until then a team shows as \"not yet announced\", which is expected, not an error.",
