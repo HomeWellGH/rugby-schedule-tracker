@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-30T18:02:06.312019+00:00",
+  "generated_at": "2026-08-03T19:01:45.411727+00:00",
   "favorite_team": "South Africa",
   "timezone": "America/Los_Angeles",
   "fixtures": [
@@ -37,6 +37,24 @@
       "caps_club_as_of": {
         "Argentina": null,
         "South Africa": "2026-06-21"
+      }
+    },
+    {
+      "event_id": "603459",
+      "competition": "International Test Match",
+      "home": "Australia",
+      "away": "Japan",
+      "is_favorite": false,
+      "kickoff_local": "Fri, Aug 14, 2026 - 10:15 PM PDT",
+      "venue": "Queensland Country Bank Stadium - Townsville, Australia",
+      "broadcast_us": "FloRugby (check Peacock as alternate)",
+      "home_lineup": [],
+      "home_lineup_announced": false,
+      "away_lineup": [],
+      "away_lineup_announced": false,
+      "caps_club_as_of": {
+        "Australia": null,
+        "Japan": null
       }
     }
   ],
